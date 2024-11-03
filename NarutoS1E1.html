@@ -10,13 +10,27 @@
     }
 
 
+ <style>
+        .gradient-button {
+            background: linear-gradient(to bottom, #000000, #434343);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px; /* Bouton plus petit */
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
 
-<a href="https://www.google.com" target="_blank">
-    <button style="background: linear-gradient(to bottom, #000000, #434343); color: white; border: none; border-radius: 5px; padding: 5px 10px; font-size: 14px; cursor: pointer; transition: background 0.3s;">
-        Google
-    </button>
-</a>
+        .gradient-button:hover {
+            background: linear-gradient(to bottom, #434343, #000000);
+        }
+    </style>
 
+
+  <a href="https://www.google.com" target="_blank">
+        <button class="gradient-button">Google</button>
+    </a>
 
 
     
